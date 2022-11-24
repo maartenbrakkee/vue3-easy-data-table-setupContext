@@ -1,10 +1,5 @@
-<!-- /* istanbul ignore file */ -->
 <template>
-  <v-app>
-    <component :is="$route.meta.layout">
-      <router-view />
-    </component>
-  </v-app>
+  <router-view />
 </template>
 
 <style lang="scss">
